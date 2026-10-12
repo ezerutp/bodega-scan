@@ -55,7 +55,16 @@
         }
       ],
       "expo-font",
-      "./plugins/withArm64Only"
+      "./plugins/withArm64Only",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#0B7A5C"
+        }
+      ]
     ],
     "scheme": "bodegascan",
     "experiments": {
